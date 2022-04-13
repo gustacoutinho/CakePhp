@@ -18,11 +18,15 @@ If Composer is installed globally, run
 ```bash
 composer create-project --prefer-dist cakephp/app:3.5
 ```
+To install the folder vendor run
 
 In case you want to use a custom app dir name (e.g. `/myapp/`):
 
 ```bash
 composer create-project --prefer-dist cakephp/app:3.5 myapp
+```
+```bash
+composer install, or if is installed globally php composer.phar install
 ```
 
 You can now either use your machine's webserver to view the default home page, or start
